@@ -1,0 +1,196 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+
+.navbar{
+   height:auto;
+   background-color: rgb(12, 7, 1);
+   width: 100%;
+   padding-left: 0px;
+   padding-right: 0px;
+    
+
+    
+}
+.black-shilde{
+    background-color: black;
+    min-width:  95%;
+    height: 500px;
+    color: aliceblue;
+    position:absolute;
+    top: 8px;
+    opacity: 30%;
+    
+
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+a:hover{
+    color: rgb(178, 121, 16);
+}
+.content{
+    display: inline-block;
+}
+@media(max-width:600px){
+   h5{
+       position: absolute;
+       right: 50%;
+   }
+  
+}
+#myimage{
+    filter: grayscale(80%);
+    display: inline-block;
+    border-radius: 25px;
+    position: relative;
+    top:40px;
+    left: 50px;
+
+}
+#myimage:hover{
+    filter: grayscale(10%);
+}
+.myimgbg{
+    background-color: rgb(19, 128, 223);
+    width: 300px;
+    height: 400px; 
+}
+.muhzin{
+    color: aliceblue;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.webdeveloper{
+    color: antiquewhite;
+    font-family:  "Lucida Console", "Courier New", monospace;
+}
+#dialogue{
+    position: absolute;
+    right: 210px;
+    top: 200px; 
+}
+
+.pargraf{
+    font-weight: 100;
+    font-size: 30px;
+    padding: 15px; 
+    background-color: antiquewhite;
+     opacity: 25%;
+    border-radius: 15px 50px;
+    max-width: 400px;
+    max-height: 400px;
+}
+ 
+    
+.pargraf:hover{
+    background-color:  rgb(240, 236, 229);
+    border-radius: 15px 50px;
+    max-width: 400px;
+    max-height: 400px;
+   
+
+   
+}
+@media(max-width:600px){
+    .pargraf{
+        font-size: small;
+        padding:0px;
+        color:antiquewhite;
+    }
+    #dialogue{
+        position: absolute;
+        right: 0px;
+        
+    }
+
+}
+.name{
+    color: antiquewhite;
+    font-family: "Segoe Script";
+    font-size: 25px;
+}
+.about1{
+    /* margin-top: 200px; */
+    background-color: antiquewhite;
+    border-radius: 10px;
+    height: fit-content;
+    width: 100%;
+   
+   
+
+}
+#PROJECTS{
+    background-color: antiquewhite;
+    border-radius: 10px;
+   
+   
+}
+.project{
+    width: 300px;
+    height: 200px;
+    border:1px solid black;
+    margin: 20px;
+    border-radius: 5%;
+    padding:15px;
+    filter: opacity(50%);
+    
+
+}
+.project:hover{
+    filter: brightness(100%) ;
+}
+.projectname{
+    background-color: rgb(214, 188, 130);
+    padding: 10px;
+    border-radius: 5px;
+    max-width: fit-content;
+    position: relative;
+    top:40px;
+    left: 31px;
+}
+.projectname:hover{
+    background-color:wheat ;
+}
+.projectheding{
+    position: relative;
+    left: 20px;
+    
+}
+.aboutinner{
+    max-width: 900px;
+    background-color: rgb(214, 188, 130);
+
+}
+.skills{
+    max-width: 100%;
+    max-height: fit-content;
+    background-color: antiquewhite;
+    border-radius: 10px;
+
+
+}
+.skillheding{
+    background-color: black;
+}
+.skilltable{
+    background-color: rgb(214, 188, 130);
+
+
+}
+#sendbutton{
+    background-color: antiquewhite;
+
+
+    
+}
+#sendbutton:hover{
+   background-color:rgb(205, 167, 118);;
+}
+
+    
+
